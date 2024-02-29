@@ -1,0 +1,26 @@
+{
+    "vim.leader": "<space>",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["leader", "s"],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        }
+    ],
+    "vim.smartRelativeLine": true,
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first"
+}
